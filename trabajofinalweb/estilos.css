@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&display=swap');
+
+body {
+    background-color: rgb(10, 79, 102);
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1, h2, h4  {
+
+color: black;
+font-family: 'Concert One', sans-serif;
+
+}
+
+
+div {
+text-align: center;
+width: 1000px;
+max-width: 95%;
+margin: 0 auto 0 auto;
+}
+
+header {
+
+    background-color: aliceblue;
+}
+
+article {
+
+    background-color: aliceblue;
+    
+}
+
+footer {
+    
+    background-color: rgb(33, 171, 252);
+    padding: 10px
+    
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+
+.centrar {
+
+    display : block;
+    margin: auto;
+    margin: auto;
+}
+
+nav a {
+
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+   
+}
+
+nav a:hover {
+color: white;
+background-color: rgb(33, 171, 252);
+padding: 8px;
+    border-radius: 10px;
+}
+
+
+article a {
+
+    
+    color: black;
+    margin: 50px;
+}
+
+article a:hover {
+
+    text-decoration: none;
+    color: white;
+    background-color: rgb(33, 171, 252);
+padding: 8px;
+border-radius: 10px;
+
+}
+
+html {
+
+scroll-behavior: smooth;
+
+}
+
+.celda {
+    display:  flex;
+}
+
+.columna {
+
+    text-align: center;
+}
+
+
+.celdados {
+    display:  flex;
+}
+
+.columnados {
+
+    text-align: left;
+}
+
+#contenedorIframe {
+    text-align: center;
+}
+
+#miIframe {
+    display: inline-block;
+    
+}
